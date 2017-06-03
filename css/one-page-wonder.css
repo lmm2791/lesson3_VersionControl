@@ -12,7 +12,7 @@ body {
     display: block;
     width: 100%;
     text-align: center;
-    background: url('http://placehold.it/1900x500') no-repeat center center scroll;
+    background: url(../img/nali1.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -31,8 +31,16 @@ body {
 
 .headline h2 {
     font-size: 77px;
-    background: #fff;
-    background: rgba(255,255,255,0.9);
+    background: none;
+    color: #c0c0c0;
+    text-shadow: 2px 2px #3b3b38;
+}
+
+.headline h3 {
+    font-size: 24px;
+    background: none;
+    color: #f5f5f5;
+    text-shadow: 2px 2px #3b3b38;
 }
 
 .featurette-divider {
@@ -53,6 +61,7 @@ body {
 
 .featurette-heading {
     font-size: 50px;
+    color: #d3d3d3;
 }
 
 footer {
